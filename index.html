@@ -18,6 +18,7 @@
             <img v-bind:src="image">
           </div>
           <div class="product-info">
+            <p v-if="onSale">On Sale</p>
             <h1>{{ product }}</h1>
           </div>
         </div>

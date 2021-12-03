@@ -21,9 +21,14 @@
             <h1>{{ product }}</h1>
             <p v-if="inStock">In Stock</p>
             <p v-else>Out of Stock</p>
+            <ul v-for="size in sizes"> 
+              <li>{{size}}</li>
+            </ul>
+            
           </div>
         </div>
       </div>
+      
     </div>
 
     <!-- Import App -->

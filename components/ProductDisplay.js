@@ -41,6 +41,8 @@ app.component('product-display', {
 
       </div>
     </div>
+    <reviews-form></reviews-form>
+
   </div>`,
   data() {
     return {
